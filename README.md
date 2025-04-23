@@ -15,3 +15,7 @@ Full PayOff protocol with zk-SNARK circuits (Enroll, CreatePayment, OfflineSpend
    go mod tidy
    go build -o payoff
    ./payoff
+
+## Chú ý
+Nếu "go mod tidy" lỗi, trước đó sử dụng "go mod init..". 
+Chẳng hạn: "go mod init github.com/Chang-1205/payoff-go
